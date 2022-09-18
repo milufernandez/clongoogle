@@ -1,0 +1,111 @@
+.arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.gmail  {
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.imagenes {
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.puntos {
+    width: 25px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+.sesion {
+    margin: 5px;
+    padding: 5px;
+    color:white ;
+    background-color: blue;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: none;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra {
+    width: 600px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    color: rgb(163, 163, 161)
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    width: 485px;
+}
+
+.logo {
+    width: 350px;
+    height: auto;
+}
+
+
+.lupa {
+    width: 25px;
+    height: auto;
+}
+
+.micro {
+    width: 25px;
+    height: auto;
+}
+
+.footer {
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.derecha {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    height: 48px;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+    background: #f2f2f2;
+}
+.izquierda {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    height: 48px;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: arial,sans-serif;
+    background: #f2f2f2;
+}
